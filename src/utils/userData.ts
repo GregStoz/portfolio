@@ -1,6 +1,6 @@
 export const userData = {
-  nameUser: "Samuel Leão",
-  githubUser: "samuelleaokenzie",
-  linkedinUser: "samuelleao",
-  whatsappNumber: "+5541111111111",
+  nameUser: "Greg Santos",
+  githubUser: "GregStoz",
+  linkedinUser: "gregory-santos-dev",
+  whatsappNumber: "+5551997920879",
 };

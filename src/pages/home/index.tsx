@@ -32,12 +32,10 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Tecnologia e usabilidade{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou um desenvolvedor web com foco em desempenho e na experiência do usuário. Possuo experiência em diversas tecnologias e conhecimento em UI/UX
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -67,12 +65,18 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Vamos trocar uma ideia?
+                Bora bater um papo?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+              Sou uma pessoa apaixonada por aprendizado e tecnologia, e meu objetivo é
+              contribuir para o crescimento e desenvolvimento de empresas e indivíduos.
+              Tenho formação fullstack pela <a href="https://kenzie.com.br/">Kenize Academy Brasil</a>,
+              com experiência em diversas tecnologias. Ao longo de minha carreira,
+              desenvolvi habilidades em direção de arte e UI/UX,
+              e busco sempre me atualizar e aprender novas competências para me manter competitivo no mercado de trabalho.
+              Estou sempre em busca de novas experiências e desafios e estou aberto a novas oportunidades
+              e conexões profissionais, então sinta-se à vontade para me adicionar e iniciar uma conversa.
+              Será um prazer trocar ideias e compartilhar conhecimento com você!
               </Text>
               <Button
                 type="primary"
@@ -80,8 +84,9 @@ export const Home = (): JSX.Element => {
                 as="a"
                 href={`https://www.linkedin.com/in/${userData.linkedinUser}`}
               >
-                Acessar perfil no LinkedIn
+                LinkedIn
               </Button>
+              
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
               <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
